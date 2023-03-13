@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('~assets/fonts/avenir_ff/AvenirLTStd-Roman.otf') format('truetype');
+}
+
+
+.main{
+    height: 100vh;
+    margin-left: 0;
+}
+
+.nav-menu{
+    margin-top: 100px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.menu-item{
+  color: #A0A0A0; 
+  cursor: pointer;
+}
+
+.highlight{
+  background-color: #2A36A4; 
+  color: #ffffff; 
+}
+
+.drop-down{
+   margin-left: 37%;
+    
+}
+
+.tour{
+  font-family: 'Avenir', sans-serif;
+  color: #382F90;
+
+}
+
+.main-content{
+  background: #F5F5FB;
+}
+
+.heading{ 
+font-family: 'Avenir', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 44px;
+color: #382F90;
+}
+
+.desc{
+font-family: 'Avenir', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0.3px;
+color: #9FA2B4;
+}
+
+.x-ray{
+font-family: 'Avenir', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+color: #382F90;
+
+}
+
+.select-box{
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+color: #000000;
+}
+
+
+.checkbox{
+  width: 15px;
+  height: 15px;
+  border: 1px solid #C4C4C4 !important;
+  color: #C4C4C4;
+  padding: auto;
+  cursor: pointer;
+}
+
+.part{
+  margin-top: 6.5px;
+}
+
+.drop-down-input {
+  position: absolute;
+  left: 90%;
+  top: 60%;
+  font-size: 17px;
+}
+
+.label{
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 17px;
+color: #9FA2B4;
+margin-bottom: 5px;
+}
+
+.input-field {
+  width: 100%;
+  border: 1px solid #C4C4C4;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: start;
+  margin-bottom: 3px;
+  font-family: 'Lato', sans-serif;
+}
+
+.input-field:focus{
+ outline: none;
+}
+
+::placeholder {
+  color: #9FA2B4;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.button{
+  background: #382F90;
+  border-radius: 7px;
+  padding: 8px;
+  color: #ffffff;
+  font-family: 'Avenir', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.3px;
+}
