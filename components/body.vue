@@ -155,8 +155,6 @@ export default {
             postData.investigations.push(valueId);
           }
         }
-           // having error posting form data from here but can get investigation data from here
-           //will make this more optimal if given more time.
 
         await fetch("https://testdrive.kompletecare.com/api/investigations", {
           method: "POST", // or 'PUT'
