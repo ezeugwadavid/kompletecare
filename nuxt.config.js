@@ -18,6 +18,10 @@ export default {
       {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css?family=Roboto&display=swap'
+      },
+      {
+        rel: 'stylesheet',
+        href: "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
       }
     ],
     script: [
@@ -49,13 +53,20 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+   
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    // '@nuxtjs/axios',
+    // '@nuxtjs/auth-next'
+ //   'axios'
   ],
+
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+   // transpile: ['axios'],
+  // transpile: ['@nuxtjs/axios'],
   }
 }
