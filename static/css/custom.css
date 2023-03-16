@@ -205,7 +205,18 @@
     margin-left: 15px;
   }
 
+  .alert-card{
+    margin-left: 20px;
+  }
+
   .desc {
+    font-family: 'Avenir', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    color: #9FA2B4;
     margin-left: 15px;
   }
 

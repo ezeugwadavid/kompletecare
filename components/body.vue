@@ -14,8 +14,8 @@
       <div class="heading  col-12">Update Patient Medical Record</div>
       <div class="desc col-12">Click the tab to view and edit patient medical details</div>
 
-      <div v-if="showAlert" class="alert mt-3 alert-danger d-flex" role="alert">
-        <div class="mes">something went wrong</div>
+      <div v-if="showAlert" class="alert mt-3 alert-card alert-primary d-flex" role="alert">
+        <div class="mes">records uploaded</div>
         <div @click="toggleAlert" class="close-btn ml-5">x</div>
       </div>
 
@@ -119,7 +119,7 @@ export default {
       .then(response => response.json())
       .then(result => {
         let token = result.data.token;
-        return 'your supposed token'
+        return token
       })
       .catch(error => console.log('error', error));
 
@@ -168,12 +168,12 @@ export default {
         })
           .then((response) => response.json())
           .then((data) => {
-            return data
+            console.log('success!');
+            this.showAlert = true;
           })
 
       } catch (error) {
         console.log(error)
-        this.showAlert = true;
       }
     },
 

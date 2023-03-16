@@ -1,4 +1,5 @@
 export default {
+  target: 'static',
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'kompletecare',
@@ -49,24 +50,18 @@ export default {
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
-  components: true,
+  //components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [
-   
+  buildModules: [  
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    // '@nuxtjs/axios',
-    // '@nuxtjs/auth-next'
- //   'axios'
   ],
 
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-   // transpile: ['axios'],
-  // transpile: ['@nuxtjs/axios'],
   }
 }

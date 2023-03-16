@@ -42,6 +42,7 @@
 <script>
 import AppBody from '~/components/body.vue'
 import Sidenav from '~/components/sidenav.vue'
+
 export default {
   name: 'default',
   components: {

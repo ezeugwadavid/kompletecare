@@ -1,69 +1,46 @@
-# kompletecare
+# Komplete care: vue.js/nuxtjs
 
-## Build Setup
 
-```bash
-# install dependencies
-$ yarn install
+## Description
+The komplete care app was developed for getting details of patients medical record
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+**_This App is Live at_** https://komplete-care.netlify.app/
 
-# build for production and launch server
-$ yarn build
-$ yarn start
+## Features
+Below are the features of Kompletecare App at this point
 
-# generate static project
-$ yarn generate
+###
+- Users can be able to view and select patient medical record <br>
+- Users can be able to update medical record  <br>
+
+
+## Installation
+1. Clone this repository below:
+```
+https://github.com/ezeugwadavid/kompletecare.git
+```
+2. cd into the repository:
+```
+cd kompletecare
+```
+3. Open the repository in terminal and Install dependencies by running:
+```
+yarn install
 ```
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
-
-## Special Directories
-
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
-
-### `assets`
-
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
-
-### `components`
-
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
-
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
+4. Start the server:
+```
+yarn dev
+```
 
 
-### `pages`
+## Technologies
 
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
+ES6: See [here](https://en.wikipedia.org/wiki/ECMAScript) for details.
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
+Babel: Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript in current and older browsers or environments.  see [here](https://babeljs.io/docs/en/) for details.
 
-### `plugins`
+vue.js: Vue (pronounced /vjuː/, like view) is a JavaScript framework for building user interfaces. It builds on top of standard HTML, CSS, and JavaScript and provides a declarative and component-based programming model that helps you efficiently develop user interfaces, be they simple or complex. see [here](https://vuejs.org/guide/introduction.html#:~:text=Vue%20(pronounced%20%2Fvju%CB%90%2F%2C,be%20they%20simple%20or%20complex.)
 
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+nuxt.js: Nuxt.js is a free and open source JavaScript library based on Vue.js, Node.js, Webpack and Babel.js. Nuxt is inspired by Next.js, which is a framework of similar purpose, based on React.js. The framework is advertised as a "Meta-framework for universal applications". see [here](https://nuxtjs.org/)
